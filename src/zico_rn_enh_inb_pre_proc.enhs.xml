@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>BADI_DEF</TOOL>
+   <SHORTTEXT>Test Enhancement Spot for Inbound Pre Process</SHORTTEXT>
+   <BADI_DATA>
+    <ENH_BADI_DATA>
+     <BADI_NAME>ZICO_RN_BADE_INB_PRE_PROC</BADI_NAME>
+     <INTERFACE_NAME>ZICO_RN_IF_BADI_INB_PRE_PROC</INTERFACE_NAME>
+     <SINGLE_USE>X</SINGLE_USE>
+     <CONTEXT_MODE>N</CONTEXT_MODE>
+     <BADI_SHORTTEXT>Inbound Pre Process Badi</BADI_SHORTTEXT>
+     <BADI_SHORTTEXT_ID>F0D4E2E6DA2C1FE086A0E35AC5C847B7</BADI_SHORTTEXT_ID>
+     <FILTERS>
+      <ENH_BADI_FILTER>
+       <FILTER_NAME>FILTER_ID</FILTER_NAME>
+       <FILTER_TYPE>N</FILTER_TYPE>
+      </ENH_BADI_FILTER>
+     </FILTERS>
+     <FILTER_LIMITATION>X</FILTER_LIMITATION>
+    </ENH_BADI_DATA>
+   </BADI_DATA>
+   <SOTR>
+    <item>
+     <HEADER>
+      <CONCEPT>F0D4E2E6DA2C1FE085DCFC0585D803BF</CONCEPT>
+      <CREA_LAN>E</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>AAE=</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>F0D4E2E6DA2C1FE085DCFC0585D803BF</CONCEPT>
+       <LANGU>E</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Test Enhancement Spot for Inbound Pre Process</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
+    </item>
+    <item>
+     <HEADER>
+      <CONCEPT>F0D4E2E6DA2C1FE086A0E35AC5C847B7</CONCEPT>
+      <CREA_LAN>E</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>AAE=</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>F0D4E2E6DA2C1FE086A0E35AC5C847B7</CONCEPT>
+       <LANGU>E</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Inbound Pre Process Badi</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
+    </item>
+   </SOTR>
+   <SOTR_USE>
+    <SOTR_USE>
+     <PGMID>R3TR</PGMID>
+     <OBJECT>ENHS</OBJECT>
+     <OBJ_NAME>ZICO_RN_ENH_INB_PRE_PROC</OBJ_NAME>
+     <CONCEPT>F0D4E2E6DA2C1FE085DCFC0585D803BF</CONCEPT>
+     <LFD_NUM>0001</LFD_NUM>
+    </SOTR_USE>
+    <SOTR_USE>
+     <PGMID>R3TR</PGMID>
+     <OBJECT>ENHS</OBJECT>
+     <OBJ_NAME>ZICO_RN_ENH_INB_PRE_PROC</OBJ_NAME>
+     <CONCEPT>F0D4E2E6DA2C1FE086A0E35AC5C847B7</CONCEPT>
+     <LFD_NUM>0001</LFD_NUM>
+    </SOTR_USE>
+   </SOTR_USE>
+  </asx:values>
+ </asx:abap>
+</abapGit>
