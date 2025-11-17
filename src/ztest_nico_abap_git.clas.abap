@@ -4,7 +4,7 @@ CLASS ztest_nico_abap_git DEFINITION
   CREATE PUBLIC .
 
   PUBLIC SECTION.
-    DATA: ls_table TYPE ztest_table-test.
+    DATA: ls_table TYPE ZOMER_ULUCAN-test2.
   PROTECTED SECTION.
   PRIVATE SECTION.
 ENDCLASS.
