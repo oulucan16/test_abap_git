@@ -4,6 +4,7 @@ CLASS ztest_nico_abap_git DEFINITION
   CREATE PUBLIC .
 
   PUBLIC SECTION.
+    DATA: ls_table TYPE ztest_table-test.
   PROTECTED SECTION.
   PRIVATE SECTION.
 ENDCLASS.
