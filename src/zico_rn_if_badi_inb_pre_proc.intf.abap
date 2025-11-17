@@ -6,7 +6,7 @@ INTERFACE zico_rn_if_badi_inb_pre_proc
 
   methods EXECUTE
     importing
-      !IV_HEAD_UUID type /ico/rn_pos_head_uuid
+      !IV_HEAD_UUID type char1
     exporting
       value(rt_result) type /ICO/RNT_IF_POSTR.
 
